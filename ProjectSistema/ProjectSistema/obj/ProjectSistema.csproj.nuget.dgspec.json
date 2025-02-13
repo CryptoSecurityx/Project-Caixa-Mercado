@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CRYPTO\\OneDrive - Educacional\\ProjectSistema\\ProjectSistema\\ProjectSistema.csproj": {}
+    "/home/elliot/Documents/Projects/Project-Caixa-Mercado/ProjectSistema/ProjectSistema/ProjectSistema.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CRYPTO\\OneDrive - Educacional\\ProjectSistema\\ProjectSistema\\ProjectSistema.csproj": {
+    "/home/elliot/Documents/Projects/Project-Caixa-Mercado/ProjectSistema/ProjectSistema/ProjectSistema.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CRYPTO\\OneDrive - Educacional\\ProjectSistema\\ProjectSistema\\ProjectSistema.csproj",
+        "projectUniqueName": "/home/elliot/Documents/Projects/Project-Caixa-Mercado/ProjectSistema/ProjectSistema/ProjectSistema.csproj",
         "projectName": "ProjectSistema",
-        "projectPath": "C:\\Users\\CRYPTO\\OneDrive - Educacional\\ProjectSistema\\ProjectSistema\\ProjectSistema.csproj",
-        "packagesPath": "C:\\Users\\CRYPTO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CRYPTO\\OneDrive - Educacional\\ProjectSistema\\ProjectSistema\\obj\\",
+        "projectPath": "/home/elliot/Documents/Projects/Project-Caixa-Mercado/ProjectSistema/ProjectSistema/ProjectSistema.csproj",
+        "packagesPath": "/home/elliot/.nuget/packages/",
+        "outputPath": "/home/elliot/Documents/Projects/Project-Caixa-Mercado/ProjectSistema/ProjectSistema/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\CRYPTO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/elliot/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0-windows7.0": {
@@ -49,19 +49,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

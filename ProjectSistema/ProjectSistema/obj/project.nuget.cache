@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xMDPNzTMs940LQtcUfOVDeHqMoxLi5x/5hUUM7sxh5f+s7koEfs+txtURkzn563PCOZWEhmtvhb3xSjYWEgnTg==",
+  "dgSpecHash": "rmoOrlOLVH8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\CRYPTO\\OneDrive - Educacional\\ProjectSistema\\ProjectSistema\\ProjectSistema.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/elliot/Documents/Projects/Project-Caixa-Mercado/ProjectSistema/ProjectSistema/ProjectSistema.csproj",
+  "expectedPackageFiles": [
+    "/home/elliot/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/home/elliot/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "/home/elliot/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.36/microsoft.netcore.app.host.linux-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }
